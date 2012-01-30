@@ -1,0 +1,2 @@
+tag1: httptunnel
+  http://www.nocrew.org/software/httptunnel.html page: pregexp:tar.gz file:httptunnel-3.3.tar.gz new: x:

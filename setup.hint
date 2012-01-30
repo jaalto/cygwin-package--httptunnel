@@ -1,0 +1,5 @@
+sdesc: "Tunnel data stream in HTTP requests"
+ldesc: "Creates a bidirectional virtual data stream tunnelled in HTTP
+requests. The requests can be sent via a HTTP proxy if so desired."
+category: Net
+requires: cygwin

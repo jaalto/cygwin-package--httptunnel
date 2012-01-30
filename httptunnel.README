@@ -1,0 +1,85 @@
+httptunnel
+------------------------------------------
+
+Tunnel data stream in HTTP requests
+
+Creates a bidirectional virtual data stream tunnelled in HTTP
+requests. The requests can be sent via a HTTP proxy if so desired.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://www.nocrew.org/software/httptunnel.html
+  http://packages.debian.org/stable/net/httptunnel
+  http://packages.gentoo.org/search/?sstring=httptunnel
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Upstream contact:
+  Author: Lars Brinkhoff <bug-httptunnel@gnu.org>
+  Bugs: Lars Brinkhoff <bug-httptunnel@gnu.org>
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack httptunnel-3.3-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./httptunnel*.sh all
+
+This will create:
+  httptunnel-3.3-1.tar.bz2
+  httptunnel-3.3-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distro:
+
+usr/bin/htc.exe
+usr/bin/hts.exe
+usr/share/doc/Cygwin/httptunnel-3.3.README
+usr/share/doc/httptunnel-3.3/AUTHORS
+usr/share/doc/httptunnel-3.3/COPYING
+usr/share/doc/httptunnel-3.3/ChangeLog
+usr/share/doc/httptunnel-3.3/DISCLAIMER
+usr/share/doc/httptunnel-3.3/FAQ
+usr/share/doc/httptunnel-3.3/HACKING
+usr/share/doc/httptunnel-3.3/INSTALL
+usr/share/doc/httptunnel-3.3/NEWS
+usr/share/doc/httptunnel-3.3/README
+usr/share/doc/httptunnel-3.3/TODO
+usr/share/doc/httptunnel-3.3/rfc1945.txt
+usr/share/doc/httptunnel-3.3/rfc2045.txt
+usr/share/doc/httptunnel-3.3/rfc2068.txt
+usr/share/man/man1/htc.1.gz
+usr/share/man/man1/hts.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 3.3-1 -----
+- 2005-08-02 Initial release Jari Aalto
+- This port is based on www.nocrew.org
+- Note: manual pages are original, but mention Debian.
+- hts.1: Added example how to make tunnels. Taken from
+  http://www.nocrew.org/software/httptunnel/faq.html
+- http://cygwin.com/ml/cygwin-apps/2006-01 (ITP)
+  http://sourceware.org/ml/cygwin-apps/2006-01/ (accepted)
+
+
+Cygwin port maintained by: Jari Aalto <jari dt aalto A T cante dt net>
