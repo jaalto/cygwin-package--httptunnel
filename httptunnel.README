@@ -48,25 +48,7 @@ This will create:
 -------------------------------------------
 
 Files included in the binary distro:
-
-usr/bin/htc.exe
-usr/bin/hts.exe
-usr/share/doc/Cygwin/httptunnel-3.3.README
-usr/share/doc/httptunnel-3.3/AUTHORS
-usr/share/doc/httptunnel-3.3/COPYING
-usr/share/doc/httptunnel-3.3/ChangeLog
-usr/share/doc/httptunnel-3.3/DISCLAIMER
-usr/share/doc/httptunnel-3.3/FAQ
-usr/share/doc/httptunnel-3.3/HACKING
-usr/share/doc/httptunnel-3.3/INSTALL
-usr/share/doc/httptunnel-3.3/NEWS
-usr/share/doc/httptunnel-3.3/README
-usr/share/doc/httptunnel-3.3/TODO
-usr/share/doc/httptunnel-3.3/rfc1945.txt
-usr/share/doc/httptunnel-3.3/rfc2045.txt
-usr/share/doc/httptunnel-3.3/rfc2068.txt
-usr/share/man/man1/htc.1.gz
-usr/share/man/man1/hts.1.gz
+  See Cygwin package archive
 
 ------------------
 
@@ -82,4 +64,4 @@ Port Notes:
   http://sourceware.org/ml/cygwin-apps/2006-01/ (accepted)
 
 
-Cygwin port maintained by: Jari Aalto <jari dt aalto A T cante dt net>
+Cygwin port maintained by: user <jari.aalto@cante.net>
